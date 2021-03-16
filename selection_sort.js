@@ -9,7 +9,7 @@
  *  compareFct : A callback function which takes two arguments: "a" and "b", and which returns boolean true if "a" < "b" and boolean false if otherwise. 
  **/
 function selectionSort(arr, compareFct) {
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length - 1; i++) {
         let swapIndex = i;
         for (let j = i + 1; j < arr.length; j++) {
             if (compareFct(arr[j], arr[swapIndex])) swapIndex = j;
@@ -45,4 +45,4 @@ function test(arr) {
     console.log(testArr);
     console.log(selectionSort(testArr, compareFct));
 }
-test();
+test([5,4,3,2,1]);
