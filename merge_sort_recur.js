@@ -1,11 +1,12 @@
 /** Merge Sort (Top-down / recursive approach)
- * This implementation of merge sort enjoys the following optimizations:
- * => During the merge operation, only the first of the two sub-arrays is copied out into a working buffer, while the 2nd sub-array is kept in-place. As a result, this algorithm has a space complexity of θ(1.5*n) as would be required for the final and largest merge operation. Such is a slight improvement relative to the commonly occurring space complexity of θ(2n) found in many other implementations of merge sort.
+ * Optimizations:
+ * => During the merge operation, only the first of the two sub-arrays is copied out into a working buffer, while the 2nd sub-array is kept in-place. As a result, the amount of buffer space used by this algorithm is 1/2*n as would be required for the final and largest merge operation. Such is a slight improvement compared to the commonly occurring buffer space requirement of 1*n found in many other implementations of merge sort.
  * => Since one of the two sub-arrays is kept in-place during merge operations, this also results in a reduction of total read/write operations by a mininum of 25%.
  * => If elements of the second sub-array for a given merge operation are larger than the largest element of the first sub-array, then no operation is performed on them as they would already be located at the correct position in the merged segment, thus saving comparisons as well as reads and writes.
  * 
+ * Analysis:
  * The time complexity of this algorithm for the best, worst and average case is O(n*log(n)) .
- * The space complexity is O(n), more precisely θ(1.5*n). This sort is NOT performed in-place.
+ * This sort is NOT performed in-place. The auxiliary working space required by this algorithm is 1/2*n used by the working buffer array, plus up to O(log(n)) for maintaining stack pointers and variables of the recursive calls.
  * This sort IS stable.
  * 
  * Parameter(s):
