@@ -3,7 +3,7 @@
  * This implementation of quicksort uses Lomuto's partitioning scheme.
  * 
  * Optimizations:
- * => This implementation uses the median-of-three approach for selecting an approptiate pivot value in order to reduce the probability of occurance of quicksort's worst case time complexity of O(n^2). This is achieved by selecting the median of three sample values from a given partition which provides a better estimate of the true median compared to any sample of a single value. In this implementation, selection of the pivot value using median-of-three is only used for partitions of size 6 and greater, since for partitions of size 5 and under, the benefits incurred are outweight by the overhead of theselection process.
+ * => This implementation uses the median-of-three approach for selecting an approptiate pivot value in order to reduce the probability of occurance of quicksort's worst case time complexity of O(n^2). This is achieved by selecting the median of three sample values from a given partition which provides a better estimate of the true median compared to any sample of a single value. In this implementation, selection of the pivot value using median-of-three is only used for partitions of size 6 and greater, since for partitions of size 5 and under, the benefits incurred are outweight by the overhead of the selection process.
  * => Following partitioning, the recursive calls are first applied on the smaller partitions, so as that the larger partitions are processed in the tail calls. This ensures that auxiliary space requirement is limited to O(log(n)) even in the worst case. Without this, auxiliary space requirement may potantially reach O(n).
  * 
  * Analysis:
@@ -101,7 +101,7 @@ function quicksort(arr, compareFct) {
 
 
 /* Testing section */
-//Example callback for numeric sorts. (valid for CERTAIN algorithms)
+//Example callback for numeric sorts.
 function compareFct(a, b) {
     return a < b;
 }

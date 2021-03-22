@@ -47,7 +47,7 @@ function mergeSortRecur(arr, compareFct) {
 
 
 /* Testing section */
-//Example callback for numeric sorts. (valid for CERTAIN algorithms)
+//Example callback for numeric sorts.
 function compareFct(a, b) {
     return a <= b;
 }
