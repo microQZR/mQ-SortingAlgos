@@ -1,4 +1,9 @@
-/** Merge Sort (Bottom-up / iterative approach)
+/**
+ * Merge Sort (Bottom-up / iterative approach)
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
  * 
  * The time complexity of this algorithm for the best, worst and average case is O(n*log(n)) .
  * This sort is NOT performed in-place.

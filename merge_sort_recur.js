@@ -1,4 +1,10 @@
-/** Merge Sort (Top-down / recursive approach)
+/**
+ * Merge Sort (Top-down / recursive approach)
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * 
  * Optimizations:
  * => During the merge operation, only the first of the two sub-arrays is copied out into a working buffer, while the 2nd sub-array is kept in-place. As a result, the amount of buffer space used by this algorithm is 1/2*n as would be required for the final and largest merge operation. Such is a slight improvement compared to the commonly occurring buffer space requirement of 1*n found in many other implementations of merge sort.
  * => Since one of the two sub-arrays is kept in-place during merge operations, this also results in a reduction of total read/write operations by a mininum of 25%.

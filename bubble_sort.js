@@ -1,4 +1,10 @@
-/** Bubble Sort (Ascending Order)
+/**
+ * Bubble Sort (Ascending Order)
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * 
  * The time complexity for the worst case is O(n^2) .
  * The time complexity for the average case is O(n^2) .
  * The time complexity for the best case is O(n) .

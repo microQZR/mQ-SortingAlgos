@@ -1,4 +1,10 @@
-/** The Fisher-Yates algorithm uniformly shuffles the elements of a collection (in the case of this implementation, an array).
+/**
+ * The Fisher-Yates algorithm uniformly shuffles the elements of a collection (in the case of this implementation, an array).
+ *
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * 
  * The operation is performed in-place.
  * The time complexity is O(n) for all cases.
  * 

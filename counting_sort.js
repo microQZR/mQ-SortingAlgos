@@ -1,4 +1,10 @@
-/** Counting Sort
+/**
+ * Counting Sort
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * 
  * Analysis:
  * The time complexity of this algorithm for all cases is O(n + k), whereby "n" is the size of the input array and "k" is the number of distinct keys associated with the input array elements' values.
  * The auxiliary space requirement of this algorithm for all cases is O(n + k), whereby "n" is the size of the input array and "k" is the number of distinct keys associated with the input array elements' values. In fact, "n" amount of space is used for the output array and O(k) amount of space is used to record the number of occurances of each key.

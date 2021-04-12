@@ -1,4 +1,10 @@
-/** Quicksort
+/**
+ * Quicksort
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * 
  * Description:
  * This implementation of quicksort uses Lomuto's partitioning scheme.
  * 

@@ -1,4 +1,10 @@
-/* Testing section */
+/**
+ * Testing Section
+ * 
+ * Author:    microQZR <z.h.m@outlook.com>
+ * Copyright: (c) 2021 microQZR
+ * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ **/
 //Example callback for numeric sorts. (valid for CERTAIN algorithms)
 function compareFct(a, b) {
     return a > b;
