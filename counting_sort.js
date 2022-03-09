@@ -1,9 +1,9 @@
 /**
  * Counting Sort
  * 
- * Author:    microQZR <z.h.m@outlook.com>
- * Copyright: (c) 2021 microQZR
- * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * Author:    Zi Han Meng <zi.han.meng100@gmail.com>
+ * Copyright: (c) 2021 Zi Han Meng
+ * License:   MIT License <https://github.com/zymzy/mQ-SortingAlgos/blob/master/LICENSE>
  * 
  * Analysis:
  * The time complexity of this algorithm for all cases is O(n + k), whereby "n" is the size of the input array and "k" is the number of distinct keys associated with the input array elements' values.

@@ -1,9 +1,9 @@
 /**
  * Selection Sort (Ascending Order)
  * 
- * Author:    microQZR <z.h.m@outlook.com>
- * Copyright: (c) 2021 microQZR
- * License:   MIT License <https://github.com/microQZR/mQ-SortingAlgos/blob/master/LICENSE>
+ * Author:    Zi Han Meng <zi.han.meng100@gmail.com>
+ * Copyright: (c) 2021 Zi Han Meng
+ * License:   MIT License <https://github.com/zymzy/mQ-SortingAlgos/blob/master/LICENSE>
  * 
  * Operation: For each element in the collection to be sorted, find the lowest valued element among the current element and those that follow it, then swap the current element with the lowest-valued element found.
  * The time complexity is θ(n*(n-1) / 2) and O(n^2) for all cases.
